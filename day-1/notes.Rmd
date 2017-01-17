@@ -1,0 +1,49 @@
+logical < integer < double < character
+
+to be precise use for NA use NA_real_ etc.
+
+1:e
+
+0 can be used to subset; mostly for function checking
+
+#3 key function behaviors: formals, body, environment
+% defines infix functions
+
+you can use set theory in place of boolean logic
+
+"Zero is infections"
+
+three characteristics of a good programmer impatience, laziness, hubris
+Larry Wall
+
+parameters in Rmarkdown
+
+Good Functions: Correct, Understandable, Obviously correct
+  1. does one thing
+  2. consistent output
+  3. good names
+  4. fail fast
+  5. correct
+  6. reasonable defaults 
+  7. 
+
+don't use return except for special cases
+x <- c(1, 1, NA, NA)
+y <- c(1, NA, 1, NA)
+y <- c(1, NA, 1)
+
+get("mean")
+  
+approxfun(
+
+compute <- function(x, fname) {
+  get(fname
+is.na(x) & is.na(y)
+
+both_NA <- function(a, b) {
+  stopifnot(length(a) == length(b))
+  is.na(a) & is.na(b)
+}
+both_NA(x, y)
+
+intersect(which(is.na(x)), which(is.na(y)))
